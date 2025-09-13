@@ -1,0 +1,16 @@
+/* Global styles placeholder */
+:root {
+  --bg: #0f1115;
+  --panel: #1a1d23;
+  --text: #f5f7fa;
+  --accent: #6366f1;
+  --accent-rgb: 99 102 241;
+  --radius: 10px;
+}
+html, body, #root { height: 100%; }
+body { margin:0; background: var(--bg); color: var(--text); -webkit-font-smoothing: antialiased; }
+
+h1 { font-size: 1.9rem; }
+code { background: #252a33; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+
+ul { line-height: 1.5; }
